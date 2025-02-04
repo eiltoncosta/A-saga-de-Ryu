@@ -1,25 +1,40 @@
 @media (max-width: 768px) {
     .container {
-      flex-direction: column;
+      display: flex;
+      flex-direction:column;
     }
   
     .left, .right {
       flex: 1 1 auto;
     }
-  
-   
-    h1, h2 {
+
+    .texto1 {
       font-size: 16px;
+      height: 12px;
+      margin-top: 570px;
+      color: cornsilk;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .texto2 {
+      color: cornsilk;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     }
   
+    .texto3 {
+      margin-top: 470px;
+    }
+
     p {
       font-size: 16px;
+      height: 40px;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     }
 
     img {
       width: 100%;
-      filter: brightness(1.2) contrast(0.8) blur(2px);
-      filter: sepia(0.5) hue-rotate(30deg) brightness(0.9);
+      padding: 0px;
     }
 
   }
@@ -27,8 +42,6 @@
   @media (max-width: 480px) {
     
     .video {
-      width: 100%;
+      transform: scale(0.8);
     }
-  
-
   }
